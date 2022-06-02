@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class countclass {
 	public static void main(String[] args) {
-		System.out.println("ÇÐ¹ø 12211693 ÀÌ¸§ Á¶¼ö¹Î");
+		System.out.println("ï¿½Ð¹ï¿½ 12211693 ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		int num = 0;
 		int total_sosu = 0;
 		int total_legendre = 0;
@@ -15,7 +15,7 @@ public class countclass {
 			ArrayList<Integer> list_legendre = new ArrayList<Integer>();
 		
 			Scanner sc = new Scanner(System.in);
-			System.out.print("¿øÇÏ´Â Á¤¼ö¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä(0ÀÏ½Ã Á¾·á) : ");
+			System.out.print("asdf : ");
 			
 			num = sc.nextInt();
 			
@@ -49,6 +49,8 @@ public class countclass {
     			System.out.println("Nums of primes : " + list_legendre.size() + ", Nums of Twin Primes : " +total_twin);
     			total_twin = 0;
     			list_legendre = null;
+    			
+    			
     			
 			}
 		}
